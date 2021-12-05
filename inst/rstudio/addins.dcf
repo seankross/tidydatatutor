@@ -1,0 +1,14 @@
+Name: Open Editor in Tidy Data Tutor
+Description: Sends the entire text edtor to Tidy Data Tutor.
+Binding: go
+Interactive: false
+
+Name: Open Selection in Tidy Data Tutor
+Description: Sends only the current selection to Tidy Data Tutor.
+Binding: go_selection
+Interactive: false
+
+Name: Open Clipboard in Tidy Data Tutor
+Description: Sends the contents of the clipboard to Tidy Data Tutor.
+Binding: go_paste
+Interactive: false

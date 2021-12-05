@@ -1,0 +1,20 @@
+Package: tidydatatutor
+Title: Send Your R Code To 'Tidy Data Tutor'
+Version: 0.1.0
+Authors@R:
+  person(given = "Sean",
+           family = "Kross",
+           role = c("aut", "cre"),
+           email = "sean@seankross.com",
+           comment = c(ORCID = "0000-0001-5215-0316"))
+Description: Visualize your 'Tidyverse' data analysis pipelines via the 
+    'Tidy Data Tutor' web application.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: 
+    clipr,
+    rstudioapi
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
