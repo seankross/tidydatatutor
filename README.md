@@ -18,7 +18,7 @@ remotes::install_github("seankross/tidydatatutor")
 
 ## Getting Started
 
-Copy the following code:
+Copy this code:
 
 ```r
 library(dplyr)
@@ -31,7 +31,7 @@ penguins %>%
   slice(1)
 ```
 
-Then in the R console execute the folling:
+Then run this in the R console:
 
 ```r
 tidydatatutor::go_paste()
