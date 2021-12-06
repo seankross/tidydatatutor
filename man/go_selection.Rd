@@ -2,10 +2,19 @@
 % Please edit documentation in R/go.R
 \name{go_selection}
 \alias{go_selection}
-\title{Send Code in Source Editor to Tidy Data Tutor}
+\title{Send Code Selected in the RStudio Editor to Tidy Data Tutor}
 \usage{
 go_selection()
 }
 \description{
-Send Code in Source Editor to Tidy Data Tutor
+Send Code Selected in the RStudio Editor to Tidy Data Tutor
+}
+\examples{
+\dontrun{
+
+# Select some pipeline code in the RStudio editor,
+# then run this in the console:
+
+tidydatatutor::go_selection()
+}
 }

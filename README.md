@@ -18,7 +18,23 @@ remotes::install_github("seankross/tidydatatutor")
 
 ## Getting Started
 
-Copy this code:
+Send a string of code to Tidy Data Tutor:
+
+```r
+code = 
+"library(dplyr)
+library(palmerpenguins)
+
+penguins %>%
+  select(species, bill_length_mm) %>%
+  group_by(species) %>%
+  arrange(desc(bill_length_mm), .by_group = TRUE) %>% 
+  slice(1)"
+  
+tidydatatutor::go_code(code)
+```
+
+Copy the following code into the clipboard:
 
 ```r
 library(dplyr)
@@ -31,8 +47,14 @@ penguins %>%
   slice(1)
 ```
 
-Then run this in the R console:
+Then open it in Tidy Data Tutor by running this in the console:
 
 ```r
 tidydatatutor::go_paste()
 ```
+
+## RStudio Add-in
+
+Access Tidy Data Tutor from the Addins drop down menu in RStudio:
+
+<p align="left"><img src="man/figures/addin.png" width="300px"></p>

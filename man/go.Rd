@@ -2,10 +2,29 @@
 % Please edit documentation in R/go.R
 \name{go}
 \alias{go}
-\title{Send Code in Source Editor to Tidy Data Tutor}
+\title{Send Code in the RStudio Editor to Tidy Data Tutor}
 \usage{
 go()
 }
 \description{
-Send Code in Source Editor to Tidy Data Tutor
+Send Code in the RStudio Editor to Tidy Data Tutor
+}
+\examples{
+\dontrun{
+
+# Copy the following code into an open RStudio editor:
+
+library(dplyr)
+library(palmerpenguins)
+
+penguins \%>\%
+  select(species, bill_length_mm) \%>\%
+  group_by(species) \%>\%
+  arrange(desc(bill_length_mm), .by_group = TRUE) \%>\%
+  slice(1)
+
+# Then run this in the console:
+
+tidydatatutor::go()
+}
 }

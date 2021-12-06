@@ -1,5 +1,5 @@
 Package: tidydatatutor
-Title: Send Your R Code To 'Tidy Data Tutor'
+Title: Send Your R Code to 'Tidy Data Tutor'
 Version: 0.1.0
 Authors@R:
   person(given = "Sean",

@@ -1,3 +1,4 @@
+#' @importFrom utils URLencode
 tdt_url <- function(x){
   paste(
     "https://tidydatatutor.com/vis.html#code=",
