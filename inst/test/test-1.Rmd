@@ -1,0 +1,19 @@
+---
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE)
+library(tidydatatutor)
+```
+
+```{r mtcars-1}
+library(dplyr)
+
+mtcars %>% 
+  select(mpg, cyl, hp) %>% 
+  group_by(cyl) %>% 
+  summarise(mean(hp))
+```
+
+[See this pipeline in Tidy Data Tutor](`r tdt_chunk("mtcars-1")`)

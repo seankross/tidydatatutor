@@ -8,13 +8,18 @@ Authors@R:
            email = "sean@seankross.com",
            comment = c(ORCID = "0000-0001-5215-0316"))
 Description: Visualize your 'Tidyverse' data analysis pipelines via the 
-    'Tidy Data Tutor' web application.
+    'Tidy Data Tutor'(<https://tidydatatutor.com/>) web application.
 License: MIT + file LICENSE
+URL: https://github.com/seankross/tidydatatutor
+BugReports: https://github.com/seankross/tidydatatutor/issues
 Encoding: UTF-8
-Imports: 
+Imports:
     clipr,
+    knitr,
     rstudioapi
 RoxygenNote: 7.1.2
 Suggests: 
+    rmarkdown,
+    dplyr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -6,6 +6,10 @@
 \usage{
 go_paste()
 }
+\value{
+A string with an appropriately formatted URL to Tidy Data Tutor
+(invisibly).
+}
 \description{
 Send Code Copied to the Clipboard to Tidy Data Tutor
 }

@@ -53,6 +53,30 @@ Then open it in Tidy Data Tutor by running this in the console:
 tidydatatutor::go_paste()
 ```
 
+## R Markdown Support
+
+Generate links to Tidy Data Tutor in R Markdown with named R code chunks:
+
+    ---
+    output: md_document
+    ---
+
+    ```{r setup, include=FALSE}
+    knitr::opts_chunk$set(message = FALSE)
+    library(tidydatatutor)
+    ```
+
+    ```{r mtcars-1}
+    library(dplyr)
+
+    mtcars %>% 
+      select(mpg, cyl, hp) %>% 
+      group_by(cyl) %>% 
+      summarize(mean(hp))
+    ```
+
+    [See this pipeline in Tidy Data Tutor](`r tdt_chunk("mtcars-1")`)
+
 ## RStudio Add-in
 
 Access Tidy Data Tutor from the Addins drop down menu in RStudio:

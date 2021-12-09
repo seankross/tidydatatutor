@@ -6,6 +6,10 @@
 \usage{
 go()
 }
+\value{
+A string with an appropriately formatted URL to Tidy Data Tutor
+(invisibly).
+}
 \description{
 Send Code in the RStudio Editor to Tidy Data Tutor
 }

@@ -9,6 +9,10 @@ go_code(code)
 \arguments{
 \item{code}{A string of R code.}
 }
+\value{
+A string with an appropriately formatted URL to Tidy Data Tutor
+(invisibly).
+}
 \description{
 Send a Code String to Tidy Data Tutor
 }

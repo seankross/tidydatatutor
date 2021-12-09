@@ -2,6 +2,8 @@
 #'
 #' @importFrom rstudioapi verifyAvailable getSourceEditorContext
 #' @importFrom utils browseURL
+#' @returns A string with an appropriately formatted URL to Tidy Data Tutor
+#' (invisibly).
 #' @export
 #' @examples
 #' \dontrun{
@@ -33,6 +35,8 @@ go <- function(){
 #'
 #' @importFrom rstudioapi verifyAvailable getSourceEditorContext
 #' @importFrom utils browseURL
+#' @returns A string with an appropriately formatted URL to Tidy Data Tutor
+#' (invisibly).
 #' @export
 #' @examples
 #' \dontrun{
@@ -54,6 +58,8 @@ go_selection <- function(){
 #'
 #' @importFrom clipr clipr_available read_clip
 #' @importFrom utils browseURL
+#' @returns A string with an appropriately formatted URL to Tidy Data Tutor
+#' (invisibly).
 #' @export
 #' @examples
 #' \dontrun{
@@ -85,6 +91,8 @@ go_paste <- function(){
 #'
 #' @param code A string of R code.
 #' @importFrom utils browseURL
+#' @returns A string with an appropriately formatted URL to Tidy Data Tutor
+#' (invisibly).
 #' @export
 #' @examples
 #' \dontrun{
