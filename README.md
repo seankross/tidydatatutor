@@ -10,6 +10,12 @@ Connect R and RStudio to [Tidy Data Tutor](https://tidydatatutor.com).
 
 ## Installation
 
+You can install the latest release version of tidydatatutor from CRAN:
+
+```r
+install.packages("tidydatatutor")
+```
+
 You can install the development version of tidydatatutor from [GitHub](https://github.com/) with:
 
 ``` r
