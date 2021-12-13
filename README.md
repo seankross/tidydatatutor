@@ -2,6 +2,7 @@
 # tidydatatutor
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/tidydatatutor)](https://CRAN.R-project.org/package=tidydatatutor)
 [![R-CMD-check](https://github.com/seankross/tidydatatutor/workflows/R-CMD-check/badge.svg)](https://github.com/seankross/tidydatatutor/actions)
 <!-- badges: end -->
 
